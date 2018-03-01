@@ -8,13 +8,17 @@ namespace AirportChallengeLib
     {
 
         String name;
+        List<Plane> hangar;
 
         public Airport(String name)
         {
             this.name = name;
+            this.hangar = new List<Plane>();
         }
 
         public String getName() => (name);
+
+        public List<Plane> getHangar() => (hangar);
 
     }
 }

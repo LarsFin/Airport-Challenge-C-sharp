@@ -10,7 +10,7 @@ namespace AirportChallengeTest
         Plane testPlane;
 
         [TestMethod]
-        public void TestMethod1()
+        public void PlaneHasNameThatCanBePassedIn()
         {
             testPlane = new Plane("BA077");
             Assert.AreEqual("BA077", testPlane.getName());
