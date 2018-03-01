@@ -1,0 +1,9 @@
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\bin\Debug\netcoreapp2.0\AirportChallengeLib.deps.json
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\bin\Debug\netcoreapp2.0\AirportChallengeLib.dll
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\bin\Debug\netcoreapp2.0\AirportChallengeLib.pdb
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\obj\Debug\netcoreapp2.0\AirportChallengeLib.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\obj\Debug\netcoreapp2.0\AirportChallengeLib.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\obj\Debug\netcoreapp2.0\AirportChallengeLib.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\obj\Debug\netcoreapp2.0\AirportChallengeLib.AssemblyInfo.cs
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\obj\Debug\netcoreapp2.0\AirportChallengeLib.dll
+C:\Users\user\source\repos\AirportChallenge\ClassLibrary1\obj\Debug\netcoreapp2.0\AirportChallengeLib.pdb

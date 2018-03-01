@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Test.deps.json
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.json
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.dev.json
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Test.dll
+C:\Users\user\source\repos\AirportChallenge\Test\bin\Debug\netcoreapp2.0\Test.pdb
+C:\Users\user\source\repos\AirportChallenge\Test\obj\Debug\netcoreapp2.0\Test.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\AirportChallenge\Test\obj\Debug\netcoreapp2.0\Test.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AirportChallenge\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\AirportChallenge\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfo.cs
+C:\Users\user\source\repos\AirportChallenge\Test\obj\Debug\netcoreapp2.0\Test.dll
+C:\Users\user\source\repos\AirportChallenge\Test\obj\Debug\netcoreapp2.0\Test.pdb

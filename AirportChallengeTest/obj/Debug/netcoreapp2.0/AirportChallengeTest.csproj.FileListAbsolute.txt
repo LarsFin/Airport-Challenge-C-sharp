@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\obj\Debug\netcoreapp2.0\AirportChallengeTest.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\obj\Debug\netcoreapp2.0\AirportChallengeTest.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\obj\Debug\netcoreapp2.0\AirportChallengeTest.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\obj\Debug\netcoreapp2.0\AirportChallengeTest.AssemblyInfo.cs
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeTest.deps.json
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeTest.runtimeconfig.json
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeTest.runtimeconfig.dev.json
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeTest.dll
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeTest.pdb
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeLib.dll
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\bin\Debug\netcoreapp2.0\AirportChallengeLib.pdb
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\obj\Debug\netcoreapp2.0\AirportChallengeTest.dll
+C:\Users\user\source\repos\AirportChallenge\AirportChallengeTest\obj\Debug\netcoreapp2.0\AirportChallengeTest.pdb
