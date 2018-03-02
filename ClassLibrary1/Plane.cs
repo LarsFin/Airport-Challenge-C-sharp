@@ -13,12 +13,12 @@ namespace AirportChallengeLib
         public Plane(String name)
         {
             this.name = name;
-            this.flying = true;
+            flying = true;
         }
 
-        public String getName() => (name);
+        public String GetName() => (name);
 
-        public Boolean isFlying() => (flying);
+        public Boolean IsFlying() => (flying);
 
     }
 }

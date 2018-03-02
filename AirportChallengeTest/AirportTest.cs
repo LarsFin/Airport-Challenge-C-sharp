@@ -19,13 +19,13 @@ namespace AirportChallengeTest
         [TestMethod]
         public void AirportIsInitialisedWithName()
         {
-            Assert.AreEqual("Heathrow", testAirport.getName());
+            Assert.AreEqual("Heathrow", testAirport.GetName());
         }
 
         [TestMethod]
         public void AirportHasHangarOfPlanes()
         {
-            Assert.IsInstanceOfType(testAirport.getHangar(), typeof(List<Plane>));
+            Assert.IsInstanceOfType(testAirport.GetHangar(), typeof(List<Plane>));
         }
 
     }

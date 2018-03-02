@@ -13,12 +13,12 @@ namespace AirportChallengeLib
         public Airport(String name)
         {
             this.name = name;
-            this.hangar = new List<Plane>();
+            hangar = new List<Plane>();
         }
 
-        public String getName() => (name);
+        public String GetName() => (name);
 
-        public List<Plane> getHangar() => (hangar);
+        public List<Plane> GetHangar() => (hangar);
 
     }
 }

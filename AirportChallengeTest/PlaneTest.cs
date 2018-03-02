@@ -15,16 +15,24 @@ namespace AirportChallengeTest
             testPlane = new Plane("BA077");
         }
 
+        [TestCategory("Instantiation)")]
         [TestMethod]
         public void PlaneHasNameThatCanBePassedIn()
         {
-            Assert.AreEqual("BA077", testPlane.getName());
+            Assert.AreEqual("BA077", testPlane.GetName());
         }
 
         [TestMethod]
         public void PlaneIsInitiallyFlying()
         {
-            Assert.IsTrue(testPlane.isFlying());
+            Assert.IsTrue(testPlane.IsFlying());
+        }
+
+        [TestCategory("land()")]
+        [TestMethod]
+        public void PlaneHasLandMethodThatMakesFlyingFalse()
+        {
+
         }
 
     }
