@@ -16,6 +16,11 @@ namespace AirportChallengeLib
             flying = true;
         }
 
+        public void Land()
+        {
+            flying = false;
+        }
+
         public String GetName() => (name);
 
         public Boolean IsFlying() => (flying);

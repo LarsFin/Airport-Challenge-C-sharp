@@ -15,7 +15,6 @@ namespace AirportChallengeTest
             testPlane = new Plane("BA077");
         }
 
-        [TestCategory("Instantiation)")]
         [TestMethod]
         public void PlaneHasNameThatCanBePassedIn()
         {
@@ -28,11 +27,11 @@ namespace AirportChallengeTest
             Assert.IsTrue(testPlane.IsFlying());
         }
 
-        [TestCategory("land()")]
         [TestMethod]
         public void PlaneHasLandMethodThatMakesFlyingFalse()
         {
-
+            testPlane.Land();
+            Assert.IsFalse(testPlane.IsFlying());
         }
 
     }
