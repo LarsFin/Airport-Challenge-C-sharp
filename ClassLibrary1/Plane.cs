@@ -8,13 +8,17 @@ namespace AirportChallengeLib
     {
 
         String name;
+        Boolean flying;
 
         public Plane(String name)
         {
             this.name = name;
+            this.flying = true;
         }
 
         public String getName() => (name);
+
+        public Boolean isFlying() => (flying);
 
     }
 }
