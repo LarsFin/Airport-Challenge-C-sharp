@@ -34,6 +34,14 @@ namespace AirportChallengeTest
             Assert.IsFalse(testPlane.IsFlying());
         }
 
+        [TestMethod]
+        public void PlaneHasFlyMethodThatMakesFlyingTrue()
+        {
+            testPlane.Land();
+            testPlane.Fly();
+            Assert.IsTrue(testPlane.IsFlying());
+        }
+
     }
 
 }

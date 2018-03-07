@@ -1,9 +1,9 @@
-# Airport Challenge ~ C#
+﻿# Airport Challenge ~ C#
 
 Attempting to TDD the Airport challenge in C#, see user stories below;
 
-Can land planes at airport and determine they are present at the airport [?]
 ```
+Can land planes at airport and determine they are present at the airport [✓]
 As an air traffic controller 
 So I can get passengers to a destination 
 I want to instruct a plane to land at an airport
