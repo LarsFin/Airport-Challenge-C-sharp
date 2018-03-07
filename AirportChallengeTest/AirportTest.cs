@@ -41,7 +41,6 @@ namespace AirportChallengeTest
         public void AirportTakingPlaneCallsLandOnPlaneOnce()
         {
             var mockPlane = new Mock<Plane>("TestPlane");
-            mockPlane.Setup(mock => mock.Land());
             testAirport.Take(mockPlane.Object);
             mockPlane.Verify(mock => mock.Land(), Times.Once());
         }
@@ -50,10 +49,8 @@ namespace AirportChallengeTest
         public void AirportCanTakeOffSpecificPlaneThatIsRemovedFromHangar()
         {
             var mockPlane = new Mock<Plane>("TestPlane");
-            mockPlane.Setup(mock => mock.Land());
-            mockPlane.Setup(mock => mock.Fly());
             testAirport.Take(mockPlane.Object);
-            testAirport.TakeOff(mockPlane.Object);
+            testAirport.TakeOff("TestPlane");
             Assert.IsFalse(testAirport.GetHangar().Contains(mockPlane.Object));
         }
 
@@ -61,10 +58,8 @@ namespace AirportChallengeTest
         public void AirportTakeOffCallsFlyOnPlaneOnce()
         {
             var mockPlane = new Mock<Plane>("TestPlane");
-            mockPlane.Setup(mock => mock.Land());
-            mockPlane.Setup(mock => mock.Fly());
             testAirport.Take(mockPlane.Object);
-            testAirport.TakeOff(mockPlane.Object);
+            testAirport.TakeOff("TestPlane");
             mockPlane.Verify(mock => mock.Fly(), Times.Once());
         }
 

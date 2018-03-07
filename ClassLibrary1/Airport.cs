@@ -22,10 +22,17 @@ namespace AirportChallengeLib
             hangar.Add(plane);
         }
 
-        public void TakeOff(Plane plane)
+        public void TakeOff(String planeName)
         {
-            plane.Fly();
-            hangar.Remove(plane);
+            for (var i = 0; i < hangar.Count; i++)
+            {
+                Plane plane = hangar[i];
+                if (plane.GetName().Equals(planeName))
+                {
+                    plane.Fly();
+                    hangar.Remove(plane);
+                }
+            }
         }
         
         public String GetName() => (name);

@@ -2,14 +2,14 @@
 
 Attempting to TDD the Airport challenge in C#, see user stories below;
 
-```
 Can land planes at airport and determine they are present at the airport [✓]
+```
 As an air traffic controller 
 So I can get passengers to a destination 
 I want to instruct a plane to land at an airport
 ```
 
-Can takeoff planes and determine they are no longer at the airport [ ]
+Can takeoff planes and determine they are no longer at the airport [✓]
 ```
 As an air traffic controller 
 So I can get passengers on the way to their destination 
