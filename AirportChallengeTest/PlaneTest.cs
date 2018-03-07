@@ -10,7 +10,7 @@ namespace AirportChallengeTest
         Plane testPlane;
 
         [TestInitialize]
-        public void setup()
+        public void Setup()
         {
             testPlane = new Plane("BA077");
         }

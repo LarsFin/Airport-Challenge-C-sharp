@@ -16,6 +16,12 @@ namespace AirportChallengeLib
             hangar = new List<Plane>();
         }
 
+        public void Take(Plane plane) 
+        {
+            plane.Land();
+            hangar.Add(plane);
+        }
+        
         public String GetName() => (name);
 
         public List<Plane> GetHangar() => (hangar);

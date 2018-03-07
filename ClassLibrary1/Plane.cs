@@ -16,7 +16,7 @@ namespace AirportChallengeLib
             flying = true;
         }
 
-        public void Land()
+        public virtual void Land()
         {
             flying = false;
         }
