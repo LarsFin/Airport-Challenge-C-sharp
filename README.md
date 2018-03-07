@@ -2,7 +2,7 @@
 
 Attempting to TDD the Airport challenge in C#, see user stories below;
 
-Can land planes at airport and determine they are present at the airport [ ]
+Can land planes at airport and determine they are present at the airport [?]
 ```
 As an air traffic controller 
 So I can get passengers to a destination 
@@ -42,4 +42,22 @@ Default capacity for airports that can be set upon instantiation [ ]
 As the system designer
 So that the software can be used for many different airports
 I would like a default airport capacity that can be overridden as appropriate
+```
+
+Using Moq, installed using Nuget (packet manager for visual studios). 
+
+
+The code below creates a mock instance of the Plane class. 
+```
+var mockPlane = new Mock<Plane>("TestPlane")
+```
+
+So with moq something interesting that I learnt is that you can only override virtual methods. So on the Land() method within the Plane class
+I had alter it to be virtual. 
+
+```
+public virtual void Land()
+        {
+            flying = false;
+        }
 ```
