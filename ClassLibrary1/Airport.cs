@@ -21,6 +21,12 @@ namespace AirportChallengeLib
             plane.Land();
             hangar.Add(plane);
         }
+
+        public void TakeOff(Plane plane)
+        {
+            plane.Fly();
+            hangar.Remove(plane);
+        }
         
         public String GetName() => (name);
 
