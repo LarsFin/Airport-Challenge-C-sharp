@@ -24,14 +24,20 @@ namespace AirportChallengeLib
 
         public void TakeOff(String planeName)
         {
+            Boolean planeFound = false;
             for (var i = 0; i < hangar.Count; i++)
             {
                 Plane plane = hangar[i];
                 if (plane.GetName().Equals(planeName))
                 {
+                    planeFound = true;
                     plane.Fly();
                     hangar.Remove(plane);
                 }
+            }
+            if (!planeFound)
+            {
+                throw new System.ArgumentException("Plane was not found!");
             }
         }
         

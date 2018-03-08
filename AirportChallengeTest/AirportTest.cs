@@ -65,8 +65,7 @@ namespace AirportChallengeTest
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException),
-        "Cannot take off a plane that isn't present in hangar")]
+        [ExpectedException(typeof(ArgumentException), "Plane was not found!")]
         public void AirportTakeOffThrowsExceptionIfPlaneNotPresentInHangar()
         {
             testAirport.TakeOff("Plane that does not exist");
