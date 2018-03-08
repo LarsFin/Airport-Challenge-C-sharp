@@ -1,6 +1,7 @@
 ﻿using AirportChallengeLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System;
 using System.Collections.Generic;
 
 namespace AirportChallengeTest
@@ -61,6 +62,14 @@ namespace AirportChallengeTest
             testAirport.Take(mockPlane.Object);
             testAirport.TakeOff("TestPlane");
             mockPlane.Verify(mock => mock.Fly(), Times.Once());
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException),
+        "Cannot take off a plane that isn't present in hangar")]
+        public void AirportTakeOffThrowsExceptionIfPlaneNotPresentInHangar()
+        {
+            testAirport.TakeOff("Plane that does not exist");
         }
 
     }
