@@ -71,5 +71,11 @@ namespace AirportChallengeTest
             testAirport.TakeOff("Plane that does not exist");
         }
 
+        [TestMethod]
+        public void AirportHasCapacityOf10()
+        {
+            Assert.AreEqual(10, testAirport.GetCapacity());
+        }
+
     }
 }
