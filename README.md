@@ -63,3 +63,15 @@ public virtual void Land()
             flying = false;
         }
 ```
+
+Just downloaded StyleCop for my VS. I now have 129 warnings to go through which should be interesting.
+StyleCop checks through your files to make sure you are following C# conventions. I thought it would be wise
+to check them out to ensure that the code is readable to other programmers.
+
+download StyleCop here;
+
+https://marketplace.visualstudio.com/items?itemName=ChrisDahlberg.StyleCop
+
+To run StyleCop either go to the tools in the HUD or alternatively *Ctrl + shft + Y* for shortcut.
+Although pedantic in the case of doing the airport challenge Documentation headers seem an interesting
+way of showcasing method intentions and also making code easier to read and learn from. 
